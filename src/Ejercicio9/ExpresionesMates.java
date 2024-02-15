@@ -16,33 +16,37 @@ public static void main(String[] args) {
             String forma = scanner.next();
             if (forma != "a+b") {
                 System.out.println("Incorrecto");
+                break;
             }
 
-            System.out.println("El resultado de la suma es: " + (a + b));
+            System.out.println("Operación correcta. El resultado de la suma es: " + (a + b));
             break;
         case 2:
             System.out.println("Indique la forma de hacer la resta:");
             String forma2 = scanner.next();
             if (forma2 != "a-b") {
                 System.out.println("Incorrecto");
+                break;
             }
-            System.out.println("El resultado de la resta es: " + (a - b));
+            System.out.println("Operación correcta. El resultado de la resta es: " + (a - b));
             break;
         case 3:
             System.out.println("Indique la forma de hacer la multiplicación:");
             String forma3 = scanner.next();
             if (forma3 != "a*b") {
                 System.out.println("Incorrecto");
+                break;
             }
-            System.out.println("El resultado de la multiplicación es: " + (a * b));
+            System.out.println("Operación correcta. El resultado de la multiplicación es: " + (a * b));
             break;
         case 4:
             System.out.println("Indique la forma de hacer la división:");
             String forma4 = scanner.next();
             if (forma4 != "a/b") {
                 System.out.println("Incorrecto");
+                break;
             }
-            System.out.println("El resultado de la división es: " + (a / b));
+            System.out.println("Operación correcta. El resultado de la división es: " + (a / b));
             break;
         default:
             System.out.println("Operación no válida");
