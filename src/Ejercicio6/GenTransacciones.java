@@ -2,7 +2,7 @@ package Ejercicio6;
 
 import java.util.Collection;
 
-public static class GenTransacciones {
+public class GenTransacciones {
     public static Transacciones generarTransacciones(){
         Transacciones transacciones = new Transacciones();
         for(int i = 0; i < 10; i++){

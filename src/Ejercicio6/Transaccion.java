@@ -24,4 +24,9 @@ public class Transaccion {
         this.esFraudulenta = esFraudulenta;
     }
 
+    public double getImporte() {
+        return importe;
+    }
+
+
 }
