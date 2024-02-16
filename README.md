@@ -67,7 +67,8 @@ detectarFraude(transacciones)
 #### Explicación: En este ejercicio se implementan 5 clases: Transacciones, Transaccion, GenTransacciones, DetectorTransacciones y Main.
 #### Transacciones: Se implementa un constructor Transacciones que inicializa un ArrayList transacciones. Además, se crean los métodos agregarTransacción(Transaccion transaccion), la cual añade una transacción directamente y agregarTransaccion(boolean esFraudulenta, int idTransaccion, double importe, String concepto, int idOrdenante, int idBeneficiario) donde se añadiría una transacción con todos los datos que se reciben por parámetro.
 #### Transaccion: Se crea un constructor que inicializa todos los parámetros de la clase Transacción(esFraudulenta, idTransaccion, importe, concepto, idOrdenante, idBeneficiario). Además, se crea el método marcarComoFraudulenta, que adjudica un valor a esFraudulenta. Se implementan un setter para esFraudulenta y un getter para importe.
-#### GenTransacciones: 
+#### GenTransacciones: Se crea un objeto transacciones de tipo Transaccion. Con un Math.random() generamos un valor que determina si la transacción es fraudulenta.
+#### DetectorTransacciones: Con dos bucles, obtenemos el importe de las transacciones. Con un valor genérico, determinamos si las transacciones son fraudulentas.
         
 
 --------------------------------------------------------------------------------
