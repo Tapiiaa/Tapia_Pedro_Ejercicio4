@@ -41,5 +41,5 @@ analizarTendencias(datos)
 #### Explicación: Creación de dos clases: Tendencias y AnalizadorDeTendencias
 #### AnalizadorDeTendencias: Clase creada con un método _identificarTendencias_.
 #### Tendencias: Se crea un objeto en esta clase de tipo AnalizadorDeTendencias. Posteriormente se aplica un for-each, imprimiendo las tendencias.
-_identificarCuellosDeBotella_ (Contiene pseudocódigo).
+
 --------------------------------------------------------------------------------
