@@ -52,7 +52,7 @@ función monitorearAmbiente(dispositivos):
 
 dispositivos = obtenerDispositivosIoT()
 monitorearAmbiente(dispositivos)
-#### Explicación:
+#### Explicación: Este es un ejercicio interactivo, donde se le pide al usuario que ingrese una temperatura, una humedad y una calidad del aire. Se crean dos objetos de tipo Temperatura llamados madrid y barcelona. Se implementa un switch, para decir por pantalla, en caso de elegir 1, la temperatura, 2 la humedad y 3 la calidad del aire.
 --------------------------------------------------------------------------------
 ### Ejercicio 6
 #### Enunciado:Desarrollar un algoritmo que detecte posibles fraudes en transacciones financieras, utilizando técnicas de aprendizaje automático y análisis de patrones de comportamiento.
@@ -64,7 +64,12 @@ función detectarFraude(transacciones):
 
 transacciones = obtenerTransacciones()
 detectarFraude(transacciones)
-#### Explicación:
+#### Explicación: En este ejercicio se implementan 5 clases: Transacciones, Transaccion, GenTransacciones, DetectorTransacciones y Main.
+#### Transacciones: Se implementa un constructor Transacciones que inicializa un ArrayList transacciones. Además, se crean los métodos agregarTransacción(Transaccion transaccion), la cual añade una transacción directamente y agregarTransaccion(boolean esFraudulenta, int idTransaccion, double importe, String concepto, int idOrdenante, int idBeneficiario) donde se añadiría una transacción con todos los datos que se reciben por parámetro.
+#### Transaccion: Se crea un constructor que inicializa todos los parámetros de la clase Transacción(esFraudulenta, idTransaccion, importe, concepto, idOrdenante, idBeneficiario). Además, se crea el método marcarComoFraudulenta, que adjudica un valor a esFraudulenta. Se implementan un setter para esFraudulenta y un getter para importe.
+#### GenTransacciones: 
+        
+
 --------------------------------------------------------------------------------
 ### Ejercicio 7
 #### Enunciado: Crear un programa que genere citas inspiradoras de forma aleatoria a partir de una base de datos de citas y autores. Permitir a los usuarios obtener una nueva cita cada vez que lo soliciten.
@@ -76,7 +81,8 @@ función generarCita():
 mientras verdadero:
     generarCita()
     esperarSolicitudNuevaCita()
-#### Explicación:
+#### Explicación: En este ejercicio se implementan tres clases: Aplicación, Cita y GeneradorDeCitas. 
+#### Aplicación: En esta clase se implementa el main. Se crea un objeto generador de tipo GeneradorDeCitas. Se crea un while, que genera una cita inspiradora. Para que el while termine, el usuario tiene que teclear salir. 
 --------------------------------------------------------------------------------
 ### Ejercicio 9
 #### Enunciado: Desarrollar un programa que valide si una expresión matemática introducida por el usuario es correcta en términos de sintaxis y paréntesis balanceados.
@@ -90,7 +96,7 @@ función validarExpresión(expresión):
 
 expresión = obtenerExpresiónUsuario()
 validarExpresión(expresión)
-#### Explicación:
+#### Explicación: Este es un ejercicio interactivo, donde se le pide al usuario ingresar dos valores. Posteriormente, se le pide al usuario que seleccione la operación a realizar. Para validar la operación, primero se le pide al usuario que escriba correctamente la oepración, si no es correcta, la operación no será valida. Si la fórumla es correcta, se imprimirá el resultado de la operación.
 --------------------------------------------------------------------------------
 ### Ejercicio 11
 #### Enunciado: Desarrollar un programa que genere patrones artísticos en ASCII (como rectángulos, triángulos, rombos) basándose en la entrada del usuario y utilizando algoritmos de generación de patrones.
@@ -103,5 +109,5 @@ tipo = obtenerTipoPatrón()
 tamaño = obtenerTamaño()
 carácter = obtenerCarácter()
 generarPatrónASCII(tipo, tamaño, carácter)
-#### Explicación:
+#### Explicación: Ejercicio interactivo que pide al usuario que ingrese el ancho, el alto y el carácter que quiere que se imprima. Con dos for, recorremos el alto y el ancho y posteriormente se imprimen los caracteres.
 --------------------------------------------------------------------------------
