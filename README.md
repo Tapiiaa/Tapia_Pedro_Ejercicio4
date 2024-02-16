@@ -26,7 +26,20 @@ red = crearRed(configuración)
 configuración = obtenerConfiguraciónUsuario()
 simularRed(configuración)
 #### Explicación: Para el ejercicio dos, hemos creado 5 clases: **DispositivoRed**,**Red**,**Router**,**Simulador** y **Switch**
-DispositivoRed: Es la clase padre del programa, dado a que las clases Router y Switch heredan los atributos de la misma. La clase DispositivoRed contiene un constructor. 
-Simulador: Esta clase contiene el main del programa, implementada con un método _identificarCuellosDeBotella_ (Contiene pseudocódigo).
+#### DispositivoRed: Es la clase padre del programa, dado a que las clases Router y Switch heredan los atributos de la misma. La clase DispositivoRed contiene un constructor. 
+#### Simulador: Esta clase contiene el main del programa, implementada con un método _identificarCuellosDeBotella_ (Contiene pseudocódigo).
 --------------------------------------------------------------------------------
+### Ejercicio 3
+#### Enunciado: Implementar un sistema que analice datos de redes sociales (como Twitter o Facebook) para identificar tendencias actuales, temas populares o eventos emergentes. Utilizar técnicas de minería de datos y análisis de big data.
+#### Pseudocódigo: función analizarTendencias(datos):
+ tendencias = identificarTendencias(datos)
+    para cada tendencia en tendencias:
+        imprimir("Tendencia: ", tendencia)
 
+datos = obtenerDatosRedesSociales()
+analizarTendencias(datos)
+#### Explicación: Creación de dos clases: Tendencias y AnalizadorDeTendencias
+#### AnalizadorDeTendencias: Clase creada con un método _identificarTendencias_.
+#### Tendencias: Se crea un objeto en esta clase de tipo AnalizadorDeTendencias. Posteriormente se aplica un for-each, imprimiendo las tendencias.
+_identificarCuellosDeBotella_ (Contiene pseudocódigo).
+--------------------------------------------------------------------------------
