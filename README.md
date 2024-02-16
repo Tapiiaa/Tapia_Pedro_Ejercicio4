@@ -43,3 +43,65 @@ analizarTendencias(datos)
 #### Tendencias: Se crea un objeto en esta clase de tipo AnalizadorDeTendencias. Posteriormente se aplica un for-each, imprimiendo las tendencias.
 
 --------------------------------------------------------------------------------
+### Ejercicio 5
+#### Enunciado: Implementar un sistema de monitoreo ambiental utilizando dispositivos IoT (Internet de las Cosas). El sistema debe recolectar datos como temperatura, humedad y calidad del aire, y presentarlos en una interfaz de usuario para su análisis.
+#### Pseudocódigo:
+función monitorearAmbiente(dispositivos):
+    datos = recolectarDatos(dispositivos)
+    mostrarInterfazUsuario(datos)
+
+dispositivos = obtenerDispositivosIoT()
+monitorearAmbiente(dispositivos)
+#### Explicación:
+--------------------------------------------------------------------------------
+### Ejercicio 6
+#### Enunciado:Desarrollar un algoritmo que detecte posibles fraudes en transacciones financieras, utilizando técnicas de aprendizaje automático y análisis de patrones de comportamiento.
+#### Pseudocódigo:
+función detectarFraude(transacciones):
+    para cada transacción en transacciones:
+        si esFraudulenta(transacción):
+            marcarComoFraudulenta(transacción)
+
+transacciones = obtenerTransacciones()
+detectarFraude(transacciones)
+#### Explicación:
+--------------------------------------------------------------------------------
+### Ejercicio 7
+#### Enunciado: Crear un programa que genere citas inspiradoras de forma aleatoria a partir de una base de datos de citas y autores. Permitir a los usuarios obtener una nueva cita cada vez que lo soliciten.
+#### Pseudocódigo:
+función generarCita():
+    cita = obtenerCitaAleatoria()
+    imprimir("Cita Inspiradora: ", cita)
+
+mientras verdadero:
+    generarCita()
+    esperarSolicitudNuevaCita()
+#### Explicación:
+--------------------------------------------------------------------------------
+### Ejercicio 9
+#### Enunciado: Desarrollar un programa que valide si una expresión matemática introducida por el usuario es correcta en términos de sintaxis y paréntesis balanceados.
+#### Pseudocódigo:
+función validarExpresión(expresión):
+    es_valida = comprobarSintaxis(expresión)
+    si es_valida:
+        imprimir("La expresión es válida")
+    si no:
+        imprimir("La expresión no es válida")
+
+expresión = obtenerExpresiónUsuario()
+validarExpresión(expresión)
+#### Explicación:
+--------------------------------------------------------------------------------
+### Ejercicio 11
+#### Enunciado: Desarrollar un programa que genere patrones artísticos en ASCII (como rectángulos, triángulos, rombos) basándose en la entrada del usuario y utilizando algoritmos de generación de patrones.
+#### Pseudocódigo:
+función generarPatrónASCII(tipo, tamaño, carácter):
+    patrón = crearPatrón(tipo, tamaño, carácter)
+    mostrarPatrón(patrón)
+
+tipo = obtenerTipoPatrón()
+tamaño = obtenerTamaño()
+carácter = obtenerCarácter()
+generarPatrónASCII(tipo, tamaño, carácter)
+#### Explicación:
+--------------------------------------------------------------------------------
